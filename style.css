@@ -28,4 +28,23 @@ main {
   border: 10px solid orange;
 }
 
+.quotes {
+  position: relative;
+  font-size: 80px;
+}
+.quotes .quotesAddBtn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.quotes:hover .quotesAddBtn {
+  display: inline-block;
+}
+
+.newQuotes {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
